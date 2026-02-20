@@ -1,0 +1,129 @@
+.jobs-container {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  background-color: #000000;
+  min-height: 100vh;
+}
+
+.search-container {
+  background-color: #000000;
+  display: flex;
+  border: 1px solid #cbd5e1;
+  border-radius: 4px;
+  margin-bottom: 20px;
+}
+
+.search {
+  color: #7e858e;
+  font-family: 'Roboto';
+  background-color: #000000;
+  padding: 7px;
+  border: none;
+  width: 100%;
+  outline: none;
+}
+
+.search-icon {
+  color: #ffffff;
+  font-size: 18px;
+  height: 35px;
+  width: 50px;
+  padding: 10px;
+  cursor: pointer;
+  outline: none;
+}
+
+.h1 {
+  color: #ffffff;
+}
+
+.job-card-container {
+  padding-left: 0;
+}
+
+.right-container {
+  width: 100%;
+}
+
+@media screen and (max-width: 767px) {
+  .desktop-search {
+    display: none;
+  }
+}
+
+.failure-view {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.failure-img {
+  width: 80%;
+  margin-bottom: 20px;
+}
+
+.failure-name {
+  font-family: 'Roboto';
+  color: #ffffff;
+  font-size: 30px;
+  font-weight: normal;
+}
+
+.failure-desc {
+  font-family: 'Roboto';
+  color: #7e858e;
+  font-size: 15px;
+}
+.search-btn {
+  cursor: pointer;
+  outline: none;
+  padding: 0;
+  background-color: transparent;
+  border: none;
+  background-color: #202020;
+}
+
+@media screen and (min-width: 768px) {
+  .jobs-container {
+    flex-direction: row;
+    padding-right: 60px;
+    padding-left: 60px;
+  }
+
+  .side-container {
+    width: 500px;
+    margin-right: 30px;
+  }
+  .search-container {
+    display: none;
+  }
+  .desktop-search {
+    background-color: #000000;
+    display: flex;
+    border: 1px solid #cbd5e1;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    width: 45%;
+    cursor: pointer;
+    outline: none;
+  }
+  .search-input {
+    color: #7e858e;
+    font-family: 'Roboto';
+    background-color: #000000;
+    padding: 7px;
+    border: none;
+    width: 100%;
+    outline: none;
+  }
+  .desktop-icon {
+    color: #ffffff;
+    font-size: 18px;
+    height: 35px;
+    width: 50px;
+    padding: 10px;
+  }
+}

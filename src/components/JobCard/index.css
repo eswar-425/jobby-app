@@ -1,0 +1,62 @@
+.link {
+  text-decoration: none;
+}
+
+.job-item {
+  list-style-type: none;
+  background-color: #202020;
+  border-radius: 18px;
+  margin-bottom: 20px;
+  padding: 20px;
+}
+
+.sample-container {
+  display: flex;
+  align-items: center;
+}
+
+.details-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.company-logo {
+  height: 90px;
+  margin-right: 20px;
+}
+
+.company-name {
+  font-family: 'Roboto';
+  color: #ffffff;
+  font-size: 20px;
+}
+
+.star {
+  color: #fbbf24;
+  margin-right: 14px;
+}
+
+.rating {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 15px;
+}
+
+.location {
+  color: #ffffff;
+  margin-right: 10px;
+}
+
+.paragraph {
+  color: #f1f5f9;
+  margin-right: 20px;
+}
+
+.company-description {
+  color: #f1f5f9;
+}
+
+.hor {
+  border: 1px solid #64748b;
+}
